@@ -8,6 +8,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Call the MiuiCamera setup
+$(call inherit-product, vendor/xiaomi/mars-miuicamera/products/miuicamera.mk)
+
 # Inherit from mars device
 $(call inherit-product, device/xiaomi/mars/device.mk)
 

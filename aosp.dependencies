@@ -1,13 +1,15 @@
 [
   {
-    "repository": "device_xiaomi_sm8350-common",
+    "repository": "EcrosoftXiao/device_xiaomi_sm8350-common",
     "target_path": "device/xiaomi/sm8350-common",
-    "branch": "twelve"
+    "branch": "twelve",
+    "remote": "github"
   },
   {
-    "repository":  "kernel_xiaomi_mars",
+    "repository":  "EcrosoftXiao/kernel_xiaomi_mars",
     "target_path": "kernel/xiaomi/mars",
-    "branch": "twelve"
+    "branch": "twelve",
+    "remote": "github"
   },
   {
     "repository": "vendor_xiaomi_mars",
@@ -25,6 +27,12 @@
     "repository": "jjpprrrr/prelude-clang",
     "target_path": "prebuilts/clang/host/linux-x86/clang-prelude",
     "branch": "master",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "EcrosoftXiao/vendor_xiaomi_mars-miuicamera",
+    "target_path": "vendor/xiaomi/mars-miuicamera",
+    "branch": "twelve",
     "remote": "gitlab"
   }
 ]

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mars.mk
+    $(LOCAL_DIR)/evolution_mars.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_mars-user \
-    aosp_mars-userdebug \
-    aosp_mars-eng
+    evolution_mars-user \
+    evolution_mars-userdebug \
+    evolution_mars-eng

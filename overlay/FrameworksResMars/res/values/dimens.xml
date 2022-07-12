@@ -33,6 +33,14 @@
          calculate the status bar height. -->
     <dimen name="status_bar_height_default">30dp</dimen>
 
+    <!-- Some apps still use this dimen to size their layout. That is totally fine in theory
+         because the framework links this dimen to status_bar_height_portrait by default. 
+         The problem is that often times these apps do not take status_bar_padding_top into
+         account, so as a result, their view is too high and cuts into the actual statusbar area.
+         Deliberately give this dimen a value that is approximately status_bar_height_portrait +
+         status_bar_padding_top in dp so that these apps can look normal again. -->
+    <dimen name="status_bar_height">46dp</dimen>
+
     <!-- Height of the status bar in portrait.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
          -->
